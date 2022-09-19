@@ -13,4 +13,6 @@ def addproduct(request):
 def changepassword(request):
     return render(request,'sellertemplates/changepassword.html')  
 def updatestock(request):
-    return render(request,'sellertemplates/updatestock.html')    
+    return render(request,'sellertemplates/updatestock.html')   
+def image(request):
+    return render(request,'sellertemplates/image.html')  

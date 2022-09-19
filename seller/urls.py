@@ -8,5 +8,6 @@ urlpatterns=[
     path('myorder/',views.myorder),
     path('addproduct/',views.addproduct),
     path('changepassword/',views.changepassword),
-    path('updatestock/',views.updatestock)
+    path('updatestock/',views.updatestock),
+    path('image/',views.image)
 ]
